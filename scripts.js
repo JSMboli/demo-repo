@@ -1,6 +1,6 @@
 // Waits for the page to load, then adds click interactivity to the button
 document.addEventListener("DOMContentLoaded", function() {
-    const joinButton = document.getElementById("joinBtn");
+    const joinButton = document.getElementById("joinBtn now");
     
     joinButton.addEventListener("click", function() {
         // Triggers a simple alert pop-up when clicked
